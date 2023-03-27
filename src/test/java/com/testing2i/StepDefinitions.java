@@ -31,8 +31,8 @@ public class StepDefinitions {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver= new ChromeDriver(options);
-        //driver.get("https://nouri2i.github.io/");
-        driver.get("http://127.0.0.1:5500/index.html");
+        driver.get("https://nouri2i.github.io/");
+
     }
     @When("I click on the {string} link")
     public void i_click_on_the_link(String string) throws InterruptedException {
