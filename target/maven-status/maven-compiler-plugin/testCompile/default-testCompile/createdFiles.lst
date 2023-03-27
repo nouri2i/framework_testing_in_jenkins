@@ -1,2 +1,3 @@
 com\testing2i\RunCucumberTest.class
 com\testing2i\StepDefinitions.class
+com\testing2i\TestBase.class
